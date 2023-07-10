@@ -1,0 +1,46 @@
+.fondo2{
+    background-image: url(../../../build/img/FONDO02.png);
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+
+    h3{
+        margin-top: 0;
+    }
+
+    @include tablet {
+        .seccion2{
+            display: grid;
+             grid-template-columns: 50% 50%;
+            column-gap: 6rem;
+        }
+     }
+
+     h2{
+        font-family: $fuente_secundaaria;
+        color: $azul;
+        font-size: 7rem;
+     }
+
+} 
+.boton{
+    background-color:$azul;
+    color:$blanco;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 70%;
+    text-align: center;
+    border: none;
+    align-items: center;
+}
+.boton:hover{
+    cursor: pointer;
+    background-color: $negro;
+}   

@@ -1,0 +1,42 @@
+.fondo3{
+    background-color: $azul;
+
+    h1{
+        margin-top: 0;
+        color: #fff;
+        font-family: $fuente_secundaaria;
+        font-size: 4.5rem;
+    }
+    h3{
+        color: #fff;
+    }
+}
+.seccion3{
+    @include tablet {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 6rem;
+    }
+}
+
+.boton{
+    background-color:#fff;
+    color:$azul;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 70%;
+    text-align: center;
+    border: none;
+    align-items: center;
+}
+.boton:hover{
+    cursor: pointer;
+    background-color: $negro;
+}  

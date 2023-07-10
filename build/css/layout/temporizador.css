@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}.cont-temporizador{display:flex;justify-content:center;margin-top:50px}.cont-temporizador .bloque{align-items:center;color:#fff;display:flex;flex-direction:column;margin:0 4px}.cont-temporizador .bloque p{color:#fff}.cont-temporizador .bloque div{align-items:center;background-color:rgba(0,0,0,.2);border-radius:5px;box-shadow:inset 0 0 6px 2px #727272;color:#fff;display:flex;font-size:40px;font-weight:700;height:50px;justify-content:center;margin-bottom:10px;width:80px}
+/*# sourceMappingURL=temporizador.css.map */
